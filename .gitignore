@@ -1,0 +1,17 @@
+
+# FastF1 cache
+.cache/
+data/fastf1_cache/
+
+# Generated datasets
+data/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
