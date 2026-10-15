@@ -1,17 +1,33 @@
 
-# FastF1 cache
-.cache/
-data/fastf1_cache/
-
-# Generated datasets
-data/*.csv
-
 # Python
 __pycache__/
 *.py[cod]
+*.pyd
+.venv/
+venv/
+env/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Environment variables
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
+
+# FastF1 cache
+cache/
+.cache/
+
+# Generated data — keep large/raw datasets out of Git
+data/raw/
+data/processed/
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
